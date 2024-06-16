@@ -6,10 +6,10 @@
 :root{
     --gradient-color:linear-gradient(rgb(230,15,201),#fdba02);
      --background-color: rgb(60, 60, 58);
-    --primary-color:#fdbc19;
+    --primary-color:#b48101;
 }
 body{
-    font-family: 'Dancing script',cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: var(--background-color);
 }
            /*navbar*/
