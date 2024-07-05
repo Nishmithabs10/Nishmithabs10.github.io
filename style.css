@@ -166,16 +166,19 @@ body{
     padding: 20px;
 }
 
-.about-image img {
+#about-img {
     width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 150px; /* Adjust the size as needed */
+    border-radius:2%; /* Makes the image circular */
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }
+   
 
-.about-image img:hover {
+ 
+ #about-img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(37, 30, 30, 0.2);
-}
+} 
 
 /* About Text */
 .about-text {
