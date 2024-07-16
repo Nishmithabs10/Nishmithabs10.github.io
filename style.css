@@ -170,7 +170,7 @@ body{
     width: 100%;
     max-width: 150px; /* Adjust the size as needed */
     border-radius:2%; /* Makes the image circular */
-    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
    
 
