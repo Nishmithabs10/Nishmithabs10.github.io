@@ -6,7 +6,7 @@
 :root{
     --gradient-color:linear-gradient(rgb(230,15,201),#fdba02);
      --background-color: rgb(60, 60, 58);
-    --primary-color:#b48101;
+    --primary-color:#edebe6;
 }
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -108,6 +108,17 @@ body{
 /*cv button*/
 .cv-button {
     margin-top: 20px;
+
+}
+.cv-button h2 {
+    text-align: center;
+    color: #1f54e4;
+    font-size: 2rem;
+
+    
+}
+.cv-button p{
+    box-sizing: content-box;
 }
 
 .cv-button a {
@@ -470,4 +481,28 @@ footer{
     .content, footer .content {
         flex-direction: column;
     }
+}
+
+/* Ensure the certificates container is displayed as block, which is default */
+.certificates {
+    display: flex;          /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center;    /* Center items horizontally */
+    margin: 0;              /* Remove default margin if needed */
+    padding: 0;
+}
+
+/* Style each certificate link */
+.certificates .cert-link {
+    display: inline-block; /* Make each link occupy the full width */
+    font-size: 0.9em; /* Smaller font size */
+    color: #0b0c0c; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 10px; /* Spacing between links */
+
+}
+
+/* Optional: Add hover effect for links */
+.certificates .cert-link:hover {
+    text-decoration: underline;
 }
